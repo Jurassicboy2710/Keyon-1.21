@@ -1,0 +1,16 @@
+{
+  "item.keyonmod.cheese_pizza": "Cheese Pizza",
+  "item.keyonmod.keyon_spawn_egg": "Keyon Spawn Egg",
+
+  "block.keyonmod.broccoli_planks": "Broccoli Stairs",
+  "block.keyonmod.broccoli_stairs": "Broccoli Stairs",
+  "block.keyonmod.broccoli_slab": "Broccoli Slab",
+  "block.keyonmod.broccoli_button": "Broccoli Button",
+  "block.keyonmod.broccoli_pressure_plate": "Broccoli Pressure Plate",
+  "block.keyonmod.broccoli_fence": "Broccoli Fence",
+  "block.keyonmod.broccoli_fence_gate": "Broccoli Fence Gate",
+  "block.keyonmod.broccoli_door": "Broccoli Door",
+  "block.keyonmod.broccoli_trapdoor": "Broccoli Trapdoor",
+
+  "creativetab.keyon_tab": "The Keyon Mod"
+}
