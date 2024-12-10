@@ -30,12 +30,23 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.BROCCOLI_SLAB);
         evenSimplerBlockItem(ModBlocks.BROCCOLI_PRESSURE_PLATE);
         evenSimplerBlockItem(ModBlocks.BROCCOLI_FENCE_GATE);
-
         trapdoorItem(ModBlocks.BROCCOLI_TRAPDOOR);
+
+        handheldItem(ModItems.BROCCOLI_SWORD);
+        handheldItem(ModItems.BROCCOLI_PICKAXE);
+        handheldItem(ModItems.BROCCOLI_SHOVEL);
+        handheldItem(ModItems.BROCCOLI_AXE);
+        handheldItem(ModItems.BROCCOLI_HOE);
 
         simpleItem(ModItems.HAMMER);
         simpleItem(ModItems.CHEESE_PIZZA);
         withExistingParent(ModItems.KEYON_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/handheld")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(KeyonMod.MOD_ID,"item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

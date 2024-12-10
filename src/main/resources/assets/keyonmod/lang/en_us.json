@@ -12,5 +12,11 @@
   "block.keyonmod.broccoli_door": "Broccoli Door",
   "block.keyonmod.broccoli_trapdoor": "Broccoli Trapdoor",
 
+  "item.keyonmod.broccoli_sword": "Broccoli Sword",
+  "item.keyonmod.broccoli_pickaxe": "Broccoli Pickaxe",
+  "item.keyonmod.broccoli_shovel": "Broccoli Shovel",
+  "item.keyonmod.broccoli_axe": "Broccoli Axe",
+  "item.keyonmod.broccoli_hoe": "Broccoli Hoe",
+
   "creativetab.keyon_tab": "The Keyon Mod"
 }
