@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "keyonmod:block/broccoli_slab"
+    },
+    "type=double": {
+      "model": "keyonmod:block/broccoli_planks"
+    },
+    "type=top": {
+      "model": "keyonmod:block/broccoli_slab_top"
+    }
+  }
+}

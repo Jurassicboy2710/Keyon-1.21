@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "keyonmod:block/broccoli_planks"
+  }
+}
