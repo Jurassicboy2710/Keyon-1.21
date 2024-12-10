@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_broccoli_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "keyonmod:broccoli_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "keyonmod:broccoli_shovel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_broccoli_shovel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "keyonmod:broccoli_shovel"
+    ]
+  }
+}

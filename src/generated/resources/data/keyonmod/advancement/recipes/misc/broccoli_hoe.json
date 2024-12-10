@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_broccoli_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "keyonmod:broccoli_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "keyonmod:broccoli_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_broccoli_hoe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "keyonmod:broccoli_hoe"
+    ]
+  }
+}
