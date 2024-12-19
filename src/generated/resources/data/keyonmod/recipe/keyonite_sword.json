@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "K": {
+      "item": "keyonmod:keyonite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " K ",
+    " K ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "keyonmod:keyonite_sword"
+  }
+}

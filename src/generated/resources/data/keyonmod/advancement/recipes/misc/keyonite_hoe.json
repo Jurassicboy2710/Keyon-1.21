@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_keyonite_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "keyonmod:keyonite_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "keyonmod:keyonite_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_keyonite_hoe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "keyonmod:keyonite_hoe"
+    ]
+  }
+}
