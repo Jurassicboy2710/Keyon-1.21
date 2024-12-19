@@ -39,6 +39,8 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.BROCCOLI, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.BROCCOLI, 0, -3.0f))));
 
+    public static final RegistryObject<Item> KEYONITE_INGOT = ITEMS.register("keyonite_ingot",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

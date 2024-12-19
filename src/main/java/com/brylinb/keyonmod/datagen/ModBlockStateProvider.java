@@ -29,6 +29,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         doorBlockWithRenderType(((DoorBlock) ModBlocks.BROCCOLI_DOOR.get()), modLoc("block/broccoli_door_bottom"), modLoc("block/broccoli_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.BROCCOLI_TRAPDOOR.get()), modLoc("block/broccoli_trapdoor"), true, "cutout");
+
+        blockWithItem(ModBlocks.KEYONITE_BLOCK);
     }
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));

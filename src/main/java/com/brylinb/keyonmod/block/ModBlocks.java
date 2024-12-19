@@ -47,6 +47,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> BROCCOLI_TRAPDOOR = registerBlock("broccoli_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR).noOcclusion()));
 
+    public static final RegistryObject<Block> KEYONITE_BLOCK = registerBlock("keyonite_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

@@ -41,6 +41,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.HAMMER);
         simpleItem(ModItems.CHEESE_PIZZA);
         withExistingParent(ModItems.KEYON_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        simpleItem(ModItems.KEYONITE_INGOT);
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {

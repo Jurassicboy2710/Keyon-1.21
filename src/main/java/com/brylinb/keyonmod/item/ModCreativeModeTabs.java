@@ -37,6 +37,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.HAMMER.get());
                         pOutput.accept(ModItems.CHEESE_PIZZA.get());
                         pOutput.accept(ModItems.KEYON_SPAWN_EGG.get());
+
+                        pOutput.accept(ModItems.KEYONITE_INGOT.get());
+                        pOutput.accept(ModBlocks.KEYONITE_BLOCK.get());
                     })
                     .build());
 

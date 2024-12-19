@@ -39,6 +39,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.BROCCOLI_SLAB.get()));
         this.add(ModBlocks.BROCCOLI_DOOR.get(),
                 block -> createDoorTable(ModBlocks.BROCCOLI_DOOR.get()));
+
+        this.dropSelf(ModBlocks.KEYONITE_BLOCK.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

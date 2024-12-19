@@ -1,4 +1,4 @@
-// 1.21	2024-12-09T17:56:40.3905041	Loot Tables
+// 1.21	2024-12-19T12:34:33.6680354	Loot Tables
 044dad151b7ab043d20fe6c5b1d135c8830b0913 data/keyonmod/loot_table/blocks/broccoli_button.json
 73c6a7693cabcc414189a9ab403c6870d3357cbe data/keyonmod/loot_table/blocks/broccoli_door.json
 18732bf2a2d3383e37245009f6085d05de353a7e data/keyonmod/loot_table/blocks/broccoli_fence.json
@@ -8,3 +8,4 @@
 429d811b9412405da2c3d31e7849b37f486e5a39 data/keyonmod/loot_table/blocks/broccoli_slab.json
 6e4e6b00a20ca4f8412c3e23d533e3ea9065159e data/keyonmod/loot_table/blocks/broccoli_stairs.json
 e4c352e7a95fa42f351891d0c7e5ee4dee516efc data/keyonmod/loot_table/blocks/broccoli_trapdoor.json
+9eab64c0c0c6b6698669ad57ca286f47831c91ef data/keyonmod/loot_table/blocks/keyonite_block.json
