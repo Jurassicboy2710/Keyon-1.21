@@ -1,5 +1,7 @@
-// 1.21	2024-12-09T21:09:21.3481194	Tags for minecraft:block mod id keyonmod
+// 1.21	2024-12-19T13:07:30.0698363	Tags for minecraft:block mod id keyonmod
 b239e7b03736ed687b12fa515c9a1139f07cc1a8 data/keyonmod/tags/block/incorrect_for_broccoli_tool.json
+950a086f855d118e00d3fc9697663c7721c42db1 data/keyonmod/tags/block/incorrect_for_keyonite_tool.json
 781d959bb6bbea7b36ae6b2d4a71ced43fd662b9 data/keyonmod/tags/block/needs_broccoli_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/keyonmod/tags/block/needs_keyonite_tool.json
 b9978aafce94243a09cd202ba981876c62152378 data/minecraft/tags/block/fences.json
 a72bbb81498cdfa9df5308309e366a786ba25111 data/minecraft/tags/block/fence_gates.json

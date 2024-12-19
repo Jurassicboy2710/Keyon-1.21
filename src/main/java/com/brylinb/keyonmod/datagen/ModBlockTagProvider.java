@@ -29,5 +29,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(ModTags.Blocks.INCORRECT_FOR_BROCCOLI_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_STONE_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_KEYONITE_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_KEYONITE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL);
     }
 }

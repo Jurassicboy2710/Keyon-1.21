@@ -75,6 +75,51 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.BROCCOLI_HOE.get()), has(ModItems.BROCCOLI_HOE.get()))
                 .save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.KEYONITE_SWORD.get())
+                .pattern(" K ")
+                .pattern(" K ")
+                .pattern(" S ")
+                .define('K', ModItems.KEYONITE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.KEYONITE_SWORD.get()), has(ModItems.KEYONITE_SWORD.get()))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.KEYONITE_PICKAXE.get())
+                .pattern("KKK")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('K', ModItems.KEYONITE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.KEYONITE_PICKAXE.get()), has(ModItems.KEYONITE_PICKAXE.get()))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.KEYONITE_SHOVEL.get())
+                .pattern(" K ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('K', ModItems.KEYONITE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.KEYONITE_SHOVEL.get()), has(ModItems.KEYONITE_SHOVEL.get()))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.KEYONITE_AXE.get())
+                .pattern("KK ")
+                .pattern("KS ")
+                .pattern(" S ")
+                .define('K', ModItems.KEYONITE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.KEYONITE_AXE.get()), has(ModItems.KEYONITE_AXE.get()))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.KEYONITE_HOE.get())
+                .pattern("KK ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('K', ModItems.KEYONITE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.KEYONITE_HOE.get()), has(ModItems.KEYONITE_HOE.get()))
+                .save(pRecipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CHEESE_PIZZA.get(), 8)
                 .requires(Items.BREAD)
                 .requires(Items.MILK_BUCKET)

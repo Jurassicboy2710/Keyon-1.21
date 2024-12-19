@@ -1,4 +1,4 @@
-// 1.21	2024-12-09T21:09:21.3451279	Recipes
+// 1.21	2024-12-19T13:07:30.0678411	Recipes
 64c6856af21f38ac0f62ebd225a0ff261742b1c5 data/keyonmod/advancement/recipes/misc/broccoli_axe.json
 2293a1baeaa0326f90b11d22ee5a9a97f0edb233 data/keyonmod/advancement/recipes/misc/broccoli_hoe.json
 26aa135ba45ffc7f53715f2939662c8bb452b18c data/keyonmod/advancement/recipes/misc/broccoli_pickaxe.json
@@ -6,6 +6,11 @@
 b29b45dbf1183a70753b6cca4892514f558537e1 data/keyonmod/advancement/recipes/misc/broccoli_sword.json
 ce398d1f28d2d37191d45e5477ab47398d4a42c5 data/keyonmod/advancement/recipes/misc/cheese_pizza.json
 79abaf199d961bf8dd6e15ae456b28d3a9e29663 data/keyonmod/advancement/recipes/misc/hammer.json
+5f4a968b2a198bfc86b7b0b56a41e10cbd9193e2 data/keyonmod/advancement/recipes/misc/keyonite_axe.json
+b0537b2028488f174affaa8b4cfa6514e00aa0f1 data/keyonmod/advancement/recipes/misc/keyonite_hoe.json
+83dd4e385021dc07a563f3e2437edd7c49b65726 data/keyonmod/advancement/recipes/misc/keyonite_pickaxe.json
+4d8cc8c9a526ee62e15d1cdb71959007d8732783 data/keyonmod/advancement/recipes/misc/keyonite_shovel.json
+4dbe2cf1e133d8dcb1e5641f716105e80f362fba data/keyonmod/advancement/recipes/misc/keyonite_sword.json
 acb9341268a5c4750b22ea6ba286d0b02601e968 data/keyonmod/recipe/broccoli_axe.json
 672bcb5ba6ed75faf20b1fe50ef88addc1595a23 data/keyonmod/recipe/broccoli_hoe.json
 60592ddf0da13edff3e8ffc6163c8671e29facf3 data/keyonmod/recipe/broccoli_pickaxe.json
@@ -13,3 +18,8 @@ acb9341268a5c4750b22ea6ba286d0b02601e968 data/keyonmod/recipe/broccoli_axe.json
 876a3022258c4af058e6e56b8f58d9d969e0407b data/keyonmod/recipe/broccoli_sword.json
 029fe740e8df507c2e941872813bb89f129a608b data/keyonmod/recipe/cheese_pizza.json
 2f2b2e6e2060945e1e6d1fc8eed741b654b5a125 data/keyonmod/recipe/hammer.json
+7ae9b1217951ec71aedc4db171aef67eca49af3b data/keyonmod/recipe/keyonite_axe.json
+969d095d63c933caf13180b350a00ccf49e6a3b4 data/keyonmod/recipe/keyonite_hoe.json
+756646274f5edf5ca68b33522ef28efc8df0e6c3 data/keyonmod/recipe/keyonite_pickaxe.json
+f429230d54ab4d7eb7e431c2cbc1c9088c77e62f data/keyonmod/recipe/keyonite_shovel.json
+bd6aafe7907cd7883bf8e55f705a315f1dbe5235 data/keyonmod/recipe/keyonite_sword.json

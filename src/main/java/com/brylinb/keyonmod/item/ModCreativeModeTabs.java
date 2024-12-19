@@ -15,7 +15,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, KeyonMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> KEYON_TAB = CREATIVE_MODE_TABS.register("keyon_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CHEESE_PIZZA.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.KEYONITE_BLOCK.get()))
                     .title(Component.translatable("creativetab.keyon_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.BROCCOLI_PLANKS.get());
@@ -34,12 +34,20 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BROCCOLI_AXE.get());
                         pOutput.accept(ModItems.BROCCOLI_HOE.get());
 
-                        pOutput.accept(ModItems.HAMMER.get());
-                        pOutput.accept(ModItems.CHEESE_PIZZA.get());
-                        pOutput.accept(ModItems.KEYON_SPAWN_EGG.get());
-
                         pOutput.accept(ModItems.KEYONITE_INGOT.get());
                         pOutput.accept(ModBlocks.KEYONITE_BLOCK.get());
+
+                        pOutput.accept(ModItems.KEYONITE_SWORD.get());
+                        pOutput.accept(ModItems.KEYONITE_PICKAXE.get());
+                        pOutput.accept(ModItems.KEYONITE_SHOVEL.get());
+                        pOutput.accept(ModItems.KEYONITE_AXE.get());
+                        pOutput.accept(ModItems.KEYONITE_HOE.get());
+
+                        pOutput.accept(ModItems.CHEESE_PIZZA.get());
+                        pOutput.accept(ModItems.KEYON_SPAWN_EGG.get());
+                        pOutput.accept(ModItems.HAMMER.get());
+
+
                     })
                     .build());
 

@@ -39,6 +39,22 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.BROCCOLI, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.BROCCOLI, 0, -3.0f))));
 
+    public static final RegistryObject<Item> KEYONITE_SWORD = ITEMS.register("keyonite_sword",
+            () -> new SwordItem(ModToolTiers.KEYONITE, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.KEYONITE, 3, -2.4f))));
+    public static final RegistryObject<Item> KEYONITE_PICKAXE = ITEMS.register("keyonite_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.KEYONITE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.KEYONITE, 1.0f, -2.8f))));
+    public static final RegistryObject<Item> KEYONITE_SHOVEL = ITEMS.register("keyonite_shovel",
+            () -> new ShovelItem(ModToolTiers.KEYONITE, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.KEYONITE, 1.5f, -3.0f))));
+    public static final RegistryObject<Item> KEYONITE_AXE = ITEMS.register("keyonite_axe",
+            () -> new AxeItem(ModToolTiers.KEYONITE, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.KEYONITE, 5, -3.0f))));
+    public static final RegistryObject<Item> KEYONITE_HOE = ITEMS.register("keyonite_hoe",
+            () -> new HoeItem(ModToolTiers.KEYONITE, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.KEYONITE, -3, 0.0F))));
+
     public static final RegistryObject<Item> KEYONITE_INGOT = ITEMS.register("keyonite_ingot",
             () -> new Item(new Item.Properties()));
 

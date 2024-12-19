@@ -18,5 +18,14 @@
   "item.keyonmod.broccoli_axe": "Broccoli Axe",
   "item.keyonmod.broccoli_hoe": "Broccoli Hoe",
 
+  "block.keyonmod.keyonite_block": "Keyonite Block",
+  "item.keyonmod.keyonite_ingot": "Keyonite Ingot",
+
+  "item.keyonmod.keyonite_sword": "Keyonite Sword",
+  "item.keyonmod.keyonite_pickaxe": "Keyonite Pickaxe",
+  "item.keyonmod.keyonite_shovel": "Keyonite Shovel",
+  "item.keyonmod.keyonite_axe": "Keyonite Axe",
+  "item.keyonmod.keyonite_hoe": "Keyonite Hoe",
+
   "creativetab.keyon_tab": "The Keyon Mod"
 }
